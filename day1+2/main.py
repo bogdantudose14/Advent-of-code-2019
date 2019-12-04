@@ -4,7 +4,7 @@
 #
 # def array():
 #     test_int = []
-#     with open("data.txt", "r") as file:
+#     with open("data_day1.txt", "r") as file:
 #         for line in file:
 #             int_numbers = line.split(",")
 #         # print(int_numbers)
@@ -64,7 +64,7 @@ def compute_result(numbers):
 if __name__ == "__main__":
 
 
-	with open("data.txt", 'r') as input:
+	with open("data_day2.txt", 'r') as input:
 		lines = input.read().splitlines()
 		#print(lines)
 
